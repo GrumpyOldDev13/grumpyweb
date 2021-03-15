@@ -14,7 +14,8 @@ Layout:
 ```
 
 /assets/  <-- edit stylesheets and add images here
-/templates/ <-- put your content here.  Convention is that if you want to serve up a page called /foo.html, then create files like this:
+/templates/  <-- put templates here
+/content/ <-- put your content here.  Convention is that if you want to serve up a page called /html/foo.html, then create files like this:
           foo.html
           foo.title
 ``` 

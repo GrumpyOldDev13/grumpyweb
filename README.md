@@ -7,7 +7,7 @@ Features:
 - produces single deployable binary.
 - no external dependencies required (unless you want https, in which case install a full fledged web server and set up a reverse proxy + letencrypt).
 - simple templating system (gives you a standard way to have a look and feel for your web site without cutting and pasting HTML)
-- no javascript required
+- no javascript required. Very little css. 
 
 Layout:
 
@@ -25,4 +25,4 @@ Usage:
 go build
 ./grumpyweb
 
-Yes, this is how grumpy old developers roll.
+Yes, this is how grumpy old developers roll. At least this one. YMMV

@@ -1,0 +1,50 @@
+@media (prefers-color-scheme: dark) {
+  body, html {
+    background-color:black;
+    color: white;
+  }
+
+}
+@media (prefers-color-scheme: light) {
+  body, html {
+    background-color:white;
+    color: black;
+  }
+}
+body, html {
+    display: grid;
+    font-family: "San Francisco", "Calibri", sans-serif; 
+    font-size: 20px;
+    text-align: center;
+  }
+  .nav {
+    text-align: left;
+    background-color:#636095; 
+    height: 300px; 
+    padding: 0px; 
+    color: white;
+    width: 100%;
+  }
+  .navLink {
+    float: right; 
+    padding: 30px; 
+    color: white;
+  }
+  .center-me {
+    margin: auto;
+  }
+  a:link {
+    color: white;
+  }
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  /* selected link */
+  a:active {
+    color: white;
+  }

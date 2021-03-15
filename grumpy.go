@@ -4,9 +4,11 @@ import (
 	"embed"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 	"text/template"
 
+	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 )
 
@@ -42,5 +44,5 @@ func main() {
 	myRouter.HandleFunc("/", baseURL)
 	myRouter.PathPrefix("/assets/").Handler(http.StripPrefix("/", fs))
 	myRouter.HandleFunc("/html/{page}", html)
-	log.Fatal(http.ListenAndServe(":8080", myRouter))
+	log.Fatal(http.ListenAndServe(":8080", handlers.CombinedLoggingHandler(os.Stdout, myRouter)))
 }

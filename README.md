@@ -23,6 +23,10 @@ go-1.16+
 Usage:
 
 go build
-./grumpyweb
+./grumpyweb >> your.log
 
 Yes, this is how grumpy old developers roll. At least this one. YMMV
+
+Future work: 
+
+Rotate log files automatically.

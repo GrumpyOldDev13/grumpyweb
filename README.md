@@ -11,19 +11,22 @@ Features:
 
 Layout:
 
+...
 /assets/  <-- edit stylesheets and add images here
 /templates/ <-- put your content here.  Convention is that if you want to serve up a page called /foo.html, then create files like this:
           foo.html
           foo.title
+... 
 
 Requirements:
 
 go-1.16+
 
 Usage:
-
+...
 go build
 ./grumpyweb >> your.log
+...
 
 Yes, this is how grumpy old developers roll. At least this one. YMMV
 
